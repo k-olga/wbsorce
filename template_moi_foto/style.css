@@ -1,0 +1,77 @@
+#allcontent {
+	width: 1210px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 36px;
+	text-shadow: 4px 4px 4px #aaa;
+	color: #333333;
+	text-align: center;
+	height: 190px;
+	border-bottom: 5px double gray; 
+	margin-top: 40px;
+}
+.box {
+	width: 1210px;
+	text-align: center;
+    font-size: 16px;
+    letter-spacing: 0px;
+    white-space: nowrap;
+    line-height: 12px;
+    overflow: hidden;
+}
+
+.foto {
+	width: 395px;
+	margin: 10px 1px 3px 0px;
+	display: inline-block;
+    vertical-align: middle;
+}
+.name {
+	background: #e5e5e5;
+	color: #333333;
+	padding: 0px;
+	text-align: center;
+	border: 2px solid #D8D8D8;
+	border-radius: 0px 0px 10px 10px;
+	width: 391px;
+	margin: 0px 1px 10px 1px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+a img {
+	text-decoration: none;
+	border: none;
+}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333333;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+#footer {
+	color:            #333333;
+	text-align:       center;
+	padding:          15px 15px 15x 15px;
+	margin:           140px 10px 10px 10px;
+	font-size:        90%;
+	clear:			  left;
+}
+#tomain {
+	margin:           10px 0px 0px 206px;
+}

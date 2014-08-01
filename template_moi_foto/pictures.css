@@ -1,0 +1,70 @@
+#allcontent {
+	width: 1210px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#name {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 36px;
+	text-shadow: 4px 4px 4px #aaa;
+	color: #333333;
+	text-align: center;
+	height: 190px;
+	border-bottom: 5px double gray; 
+	margin-top: 40px;
+}
+#thumbnails {
+	margin: 6px;
+}
+
+a img {
+	text-decoration: none;
+	border: none;
+}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333333;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+#footer {
+	color:            #333333;
+	text-align:       center;
+	padding:          15px 15px 15px 15px;
+	margin:           120px 10px 10px 10px;
+	font-size:        90%;
+	clear:			left;
+}
+#tomain {
+	margin:           10px 0px 0px 0px;
+	text-align:       center;
+}
+
+$("a.gallery").fancybox(
+			{						
+          "padding" : 20,
+          "imageScale" : false, 
+			"zoomOpacity" : false,
+			"zoomSpeedIn" : 1000,	
+			"zoomSpeedOut" : 1000,	
+			"zoomSpeedChange" : 1, 
+			"frameWidth" : 7,	 
+			"frameHeight" : 6, 
+			"overlayShow" : true, 
+			"overlayOpacity" : 0.8,	
+			"hideOnContentClick" :false,
+			"centerOnScroll" : false
+				
+			});

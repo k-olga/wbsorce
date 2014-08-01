@@ -1,0 +1,105 @@
+@import url("reset.css"); 
+
+/*General Styles*/
+html {
+	height: 100%;
+}
+
+body {
+	background: url(img/bgimage.jpg);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #2e2e2e;
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+/*Header*/
+#header {
+	width: 1000px;
+	height: 170px;
+	margin: 0 auto;
+	padding-top: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#header h1 {
+	font-size: 30px;
+	font-weight: 800;
+	color: #3b5998;
+}
+
+#header h2 {
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+#header p {
+	padding-left: 15px;
+}
+
+#header p a {
+	text-decoration: none;
+	color: #2e2e2e;
+}
+
+#header p a:hover {
+	text-decoration: none;
+	color: #3b5998;
+}
+
+.contacts {
+	display: inline-block;
+	overflow: hidden;
+	margin: -10px 15px 0 0;
+}
+
+/*Container*/
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 1.5;
+	background: #fff;
+	border-radius: 10px;
+}
+
+#container img {
+	float: left;
+	margin: 50px 35px 30px 50px;
+	border: 1px solid gray;
+}
+
+#container ul {
+	float: left;
+	margin: 100px 0 0 0;
+	list-style-type: disc;
+}
+
+#clear {
+	clear: both;
+}
+
+/*FOOTER*/
+#footer {
+	font-size: 12px;
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 18px;
+}
+
+
